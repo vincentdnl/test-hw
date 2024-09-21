@@ -1,9 +1,23 @@
 # Test HW
 
-## Installation and run
+## Install
+
+Env file:
 
 ```bash
-npm runn install:all
+cd api/ 
+cp .env.example .env
+# replace with your Jobijoba API credentials
+```
+
+Install all dependencies:
+
+```bash
+npm run install:all
+```
+## Run
+
+```bash
 npm run start:all
 ```
 
