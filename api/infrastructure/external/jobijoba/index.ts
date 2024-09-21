@@ -18,12 +18,13 @@ export const login = async (): Promise<Token> => {
     return await response.json()
 }
 
-export const fetchJobs = async (token: string, job: string): Promise<JobsResponse> => {
+export const fetchJobs = async (token: string, job: string, page: string): Promise<JobsResponse> => {
     // TODO: handle errors
     const params = new URLSearchParams({
         what: job,
         where: "Bordeaux",
-        limit: "10"
+        limit: "10",
+        page
     })
 
     const url = `${BASE_API}/ads/search?${params}`

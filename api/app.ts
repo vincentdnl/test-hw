@@ -9,7 +9,10 @@ const router = new Router()
 
 router.get("/jobs", async (ctx) => {
     const {token} = await login()
-    ctx.body = await fetchJobs(token, "développeur")
+
+    // TODO: validate and secure query
+    const page = (ctx.query.page || "1") as string
+    ctx.body = await fetchJobs(token, "développeur", page)
 })
 
 app
