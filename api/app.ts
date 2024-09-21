@@ -1,8 +1,10 @@
 import Koa from "koa"
 import Router from "@koa/router"
+import cors from "@koa/cors"
 import {fetchJobs, login} from "./infrastructure/external/jobijoba"
 
 const app = new Koa()
+app.use(cors())
 const router = new Router()
 
 router.get("/jobs", async (ctx) => {
