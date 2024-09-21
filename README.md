@@ -7,6 +7,12 @@ npm runn install:all
 npm run start:all
 ```
 
+## Tests
+
+```bash
+npm run test:all
+```
+
 ## TODO
 
 - [x] Handling loading state

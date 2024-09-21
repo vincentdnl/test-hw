@@ -9,7 +9,10 @@
     "install:all": "npm-run-all --parallel install:api install:app",
     "start:api": "cd api && npm run dev",
     "start:app": "cd app && npm run dev",
-    "start:all": "npm-run-all --parallel start:api start:app"
+    "start:all": "npm-run-all --parallel start:api start:app",
+    "test:api": "cd api && npm run test",
+    "test:app": "cd app && npm run test",
+    "test:all": "npm-run-all --parallel test:api test:app"
   },
   "author": "",
   "license": "ISC",
