@@ -23,7 +23,7 @@ export const fetchJobs = async (token: string, job: string): Promise<JobsRespons
     const params = new URLSearchParams({
         what: job,
         where: "Bordeaux",
-        limit: "2"
+        limit: "10"
     })
 
     const url = `${BASE_API}/ads/search?${params}`
