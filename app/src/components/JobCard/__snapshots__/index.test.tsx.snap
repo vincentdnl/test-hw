@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders JobCard 1`] = `
+<DocumentFragment>
+  <div
+    class="flex flex-col border-2 border-slate-800 rounded-xl"
+  >
+    <div
+      class="flex justify-between border-b-2 border-slate-800 px-6 py-2 bg-gradient-to-r from-indigo-300 from-10% via-sky-500 via-30% to-emerald-300 to-90% rounded-t-xl"
+    >
+      <h2
+        class="font-bold"
+      >
+        Analyste developpeur
+      </h2>
+      <p
+        class="text-slate-500"
+      >
+        Bordeaux (Aquitaine)
+      </p>
+    </div>
+    <div
+      class="px-6 py-2 border-b-2 border-slate-800"
+    >
+      <ul
+        class="list-disc"
+      >
+        <li>
+          <span
+            class="underline font-bold"
+          >
+            company
+          </span>
+          : Armée De L'Air Et De L'Espace
+        </li>
+        <li>
+          <span
+            class="underline"
+          >
+            sector
+          </span>
+          : Informatique
+        </li>
+        <li>
+          <span
+            class="underline"
+          >
+            description
+          </span>
+          : 
+          <span>
+            Chaque jour, les Aviateurs de l'Armée de l'Air et de l'Espace servent la France en protégeant, intervenant et dissuadant. Leur expertise fait voler nos avions, hélicoptères et drones, assurant la sécurité nationale. Passion et engagement au service de la nation. L'armée de l'...
+          </span>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="px-6 py-2 flex justify-end"
+    >
+      <a
+        class="flex text-indigo-600 font-bold underline"
+        href="https://www.jj-tracker.com/fr/redirect/offer/1017/9e2bdd43f00c3c7a191c506c014888e4"
+        rel="noreferrer nofollow noopener"
+        target="_blank"
+      >
+        See the job...
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;

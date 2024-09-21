@@ -1,3 +1,4 @@
+import "@testing-library/jest-dom"
 import {JobCard} from "./index.tsx"
 import {render} from "@testing-library/react"
 
